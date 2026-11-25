@@ -1,0 +1,10 @@
+PROJECT 4 - N8N (AUTOMATION)
+
+1 Sign up n8n.io (cloud) or run local
+2 Trigger: Webhook OR new file in Drive
+3 HTTP: POST to your FastAPI /chat (project 2)
+4 Send result to email or Slack
+5 Export workflow JSON (no secrets) -> this folder
+6 Screenshot + 5 line use case in README
+
+Alternative: Make.com same steps

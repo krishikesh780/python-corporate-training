@@ -1,0 +1,5 @@
+policy_number,name,premium,status,updated_at
+POL001,Alice,1200,Alive,2025-01-01
+POL002,Bob,1500,Alive,2025-01-02
+POL002,Bob,1600,Alive,2025-01-03
+POL003,Charlie,1800,Deceased,2025-01-04

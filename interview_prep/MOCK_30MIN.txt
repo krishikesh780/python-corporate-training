@@ -1,0 +1,13 @@
+30 MINUTE MOCK (self)
+
+Min 0-5   Read INTERVIEW_ALL.txt aloud
+Min 5-10  Pick week1.txt + week3.txt - answer TOP 5 without looking
+Min 10-15 Run: python quick_revision/day4_oops.py
+Min 15-20 Explain week5 project story (SQL regression)
+Min 20-25 Whiteboard: RAG pipeline 4 boxes
+Min 25-30 Git: what you commit vs never commit
+
+Role add-ons:
+  Data job    -> week3 + week5 + sql_drill
+  Backend job -> week2 + week4 + FastAPI
+  AI job      -> week6 + RAG demo run

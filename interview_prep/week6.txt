@@ -1,0 +1,31 @@
+WEEK 6 - INTERVIEW (AI track) - see also week6/INTERVIEW.txt
+
+MUST KNOW
+  RAG not fine-tune for private PDFs
+  prompt: answer only from context
+  FastAPI /chat POST
+  DeepSeek OpenAI-style Bearer API
+  n8n = trigger HTTP LLM notify
+
+RUN: python week6/project1_gemini_rag/step1_hello_deepseek.py
+       python week6/project6_schedule_triggers/run_job.py
+
+AUTOMATION TRIGGERS
+  GitHub Actions: .github/workflows/scheduled-automation.yml (cron + Run workflow)
+  GCP Cloud Scheduler -> POST trigger_api.py (see project6 STEPS.txt)
+
+TOP 5 Q
+  Q: chunk size?
+  A: ~500 tokens overlap helps recall
+
+  Q: hallucination reduce?
+  A: strict context + refuse if missing
+
+  Q: agent vs chain?
+  A: agent picks tools loop; chain fixed steps
+
+  Q: Gulf Arabic bot?
+  A: lang param + AR/EN prompts
+
+  Q: portfolio?
+  A: 3 GitHub repos RAG API ETL

@@ -1,0 +1,65 @@
+
+4. Loop with log.info =========
+
+def numbers = [10, 20, 30, 40]
+
+numbers.each { num ->
+    log.info("Number: ${num}")
+}
+
+
+
+5.  Try-Catch Error Handling ===========
+try {
+    def x = 10 / 0
+} catch (Exception e) {
+    log.error("Error occurred: ${e.message}")
+} finally {
+    log.info("Execution finished.")
+}
+
+
+
+6. JSON Parsing with log.info ============
+
+
+import groovy.json.JsonSlurper
+
+def jsonText = '{"name":"Amit","age":25,"city":"Delhi"}'
+def data = new JsonSlurper().parseText(jsonText)
+
+log.info("Name: ${data.name}")
+log.info("Age: ${data.age}")
+log.info("City: ${data.city}")
+
+
+
+7. Logging in Loops and Conditions (Real use-case) =============
+
+def students = [
+    [name: 'Ravi', marks: 88],
+    [name: 'Karan', marks: 72],
+    [name: 'Neha', marks: 95]
+]
+
+students.each { s ->
+    if (s.marks >= 90) {
+        log.info("${s.name} scored ${s.marks} — Excellent!")
+    } else if (s.marks >= 75) {
+        log.info("${s.name} scored ${s.marks} — Good job.")
+    } else {
+        log.warn("${s.name} scored ${s.marks} — Needs improvement.")
+    }
+}
+
+
+8. File Read & log Output =============
+
+def file = new File("test.txt")
+
+if (file.exists()) {
+    log.info("File found! Content:")
+    log.info(file.text)
+} else {
+    log.error("File not found.")
+}

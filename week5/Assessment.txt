@@ -1,0 +1,32 @@
+Week 5 — Assessment & next steps
+==================================
+
+Self-check (honest Y/N before feedback session):
+
+Week 1–2
+  [ ] Write a function with *args and default parameters
+  [ ] Explain map vs filter vs reduce with one example each
+  [ ] Import your own module and explain __name__ == "__main__"
+
+Week 3
+  [ ] Handle FileNotFoundError and log an error message
+  [ ] Read CSV with pandas; filter rows; export to Excel (index=False)
+
+Week 4
+  [ ] Class with inheritance + one overridden method
+  [ ] Purpose of .gitignore and .env (never commit secrets)
+
+Week 5
+  [ ] Run SQLite query; explain duplicate policy row in setup_db sample
+  [ ] Run project4 main (CRUD) and Project5 main (report.xlsx)
+
+Projects demonstrated
+  [ ] week4/day5/project3 — Excel compare
+  [ ] week5/project4 — JSON CustomerManager
+  [ ] week5/Project5 — queries.xlsx → validation report
+
+Next steps
+  - Re-do weak P1–P5 items from day files
+  - quick_revision/ for interview drill
+  - Optional: fastapi (quick_revision/day6_fastapi.py)
+  - Optional: exercises/*.txt for extra problems

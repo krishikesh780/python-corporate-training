@@ -1,0 +1,9 @@
+# Week 6 optional — install after week1-5 requirements.txt
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-dotenv>=1.0
+requests>=2.31
+# google-genai>=1.0          # pip install google-genai  (Gemini)
+# openai>=1.0                  # optional
+# google-cloud-bigquery>=3.0   # optional GCP
+# chromadb>=0.4                # optional local vector store for RAG lab

@@ -1,0 +1,2 @@
+# Use repo root: pip install -r ../../requirements.txt
+# (sqlite3 is in the Python standard library — no pip package)

@@ -1,0 +1,24 @@
+WEEK 6 - INTERVIEW (SHORT)
+
+Explain in 1 min each:
+  RAG = chunks + search + LLM + your PDF text
+  DeepSeek / Gemini = same RAG flow, different API key
+  FastAPI = /chat POST + Pydantic + /docs
+  BigQuery = load CSV, SQL dedup, curated table
+
+Must have 3 GitHub repos:
+  PDF chatbot | Chat API | ETL or n8n workflow
+
+Common Q:
+  RAG vs fine-tuning? -> RAG for private docs, cheap
+  Stop hallucination? -> "answer only from context"
+  Arabic+English bot? -> lang field + separate prompts
+
+Before interview:
+  Run project 1 on laptop
+  GitHub link ready
+  .env never in repo
+
+Automation trigger:
+  GitHub: on.schedule cron + workflow_dispatch
+  Cloud: Scheduler -> POST /jobs/run + secret header

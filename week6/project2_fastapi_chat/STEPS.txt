@@ -1,0 +1,12 @@
+PROJECT 2 - FASTAPI CHAT
+
+1 cd week6\project2_fastapi_chat
+2 pip install fastapi uvicorn
+3 uvicorn main:app --reload
+4 Browser: http://127.0.0.1:8000/docs
+5 Test POST /chat with {"message":"hi","lang":"en"}
+6 Replace echo with DeepSeek: import deepseek_client from project1 folder
+   OR Gemini from step1_hello.py
+7 Git push
+
+Stretch: WhatsApp webhook | Voice = Whisper + TTS

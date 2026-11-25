@@ -1,0 +1,30 @@
+WEEK 3 - INTERVIEW (files + pandas)
+
+MUST KNOW
+  try except finally raise assert logging
+  os.path.join | pathlib Path
+  encoding utf-8 on text files
+  Series 1D | DataFrame 2D
+  groupby agg merge read_csv to_excel index=False
+
+RUN: python week3/day4.py day5.py
+
+TOP 5 Q
+  Q: when finally?
+  A: cleanup always runs
+
+  Q: read_csv vs open?
+  A: pandas table vs raw text
+
+  Q: iloc vs loc?
+  A: position vs label index
+
+  Q: handle missing?
+  A: fillna dropna isnull
+
+  Q: merge on=?
+  A: SQL-like join on key column
+
+30 SEC CODE
+  df.groupby("dept")["salary"].mean()
+  df[df["age"] > 25]

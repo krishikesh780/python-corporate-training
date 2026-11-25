@@ -1,0 +1,7 @@
+1. Invoice Analyzer – Read CSV of invoices, calculate total, filter pending.
+2. Employee Tracker – Store employee data in dict, search/update.
+3. Attendance Report – Count present/absent from CSV.
+4. Quiz App – Dict of Q&A, ask user, calculate score.
+5. Email Extractor – Extract all email IDs from a text file using regex.
+6. Log Analyzer – Parse server logs and count error levels.
+7. Student Result System – Read marks CSV, calculate grade and topper.

@@ -1,0 +1,12 @@
+1. Write a function to calculate factorial of a number.
+7. Write a function to check prime numbers.
+8. Write a function to generate Fibonacci sequence.
+
+
+2. Write a function with *args and **kwargs.
+3. Write a function using lambda to square numbers in a list.
+4. Use map() to convert list of strings to uppercase.
+5. Use filter() to extract only even numbers from list.
+6. Use reduce() to calculate product of a list.
+7. Write a function to check prime numbers.
+8. Write a function to generate Fibonacci sequence.

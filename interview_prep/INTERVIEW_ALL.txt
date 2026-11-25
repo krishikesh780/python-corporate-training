@@ -1,0 +1,39 @@
+PYTHON CORPORATE TRAINING - 1 PAGE INTERVIEW CHEAT
+
+PYTHON CORE
+  list mutable | tuple immutable | dict key-value
+  == value | = assign | is identity
+  try/except specific first | finally always
+  *args tuple | **kwargs dict
+
+CONTROL & FUNCTIONS
+  range(5) 0-4 | break exit | continue skip
+  lambda one-liner | map all | filter keep
+  list comp: [x*2 for x in L if x>0]
+
+FILES & PANDAS
+  open(..., encoding=utf-8) | with closes file
+  pd.read_csv | df[df.col>5] | groupby mean
+  iloc index | loc label | fillna dropna
+
+OOP
+  self = instance | super() parent init
+  __private name mangle | @classmethod @staticmethod
+  ABC + @abstractmethod = template class
+
+GIT & API
+  git add commit push | .env never commit
+  REST GET read POST create | 401 403 404
+  FastAPI + Pydantic + /docs
+
+SQL (week5)
+  SELECT WHERE JOIN | GROUP BY HAVING
+  ROW_NUMBER dedup latest row per key
+
+AI (week6)
+  RAG = chunk + retrieve + LLM + context prompt
+  Gemini / DeepSeek = API key in .env
+
+SAY IN INTERVIEW
+  "I built week5 regression: Excel SQL -> SQLite validate -> report"
+  "Error handling: log file + typed except, not bare except"

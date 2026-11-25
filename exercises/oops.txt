@@ -1,0 +1,7 @@
+1. Create a class Employee with attributes name, id, salary.
+2. Create a subclass Manager that inherits from Employee.
+3. Demonstrate encapsulation with a private salary variable.
+4. Demonstrate polymorphism with method overriding.
+5. Create a BankAccount class with methods: deposit, withdraw, balance.
+6. Create a Student class with methods to add marks and calculate average.
+7. Implement a Library class to manage book issue and return.

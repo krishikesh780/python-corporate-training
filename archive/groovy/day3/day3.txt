@@ -1,0 +1,5 @@
+Data compare Project ============
+
+ Part1: Static
+ Part2: Dynamic
+

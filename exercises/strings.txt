@@ -1,0 +1,48 @@
+"""
+BEGINNER + INTERMEDIATE PYTHON STRING INTERVIEW QUESTIONS
+(All questions collected into one file – clean + interview-ready)
+"""
+
+# =============================
+#        BEGINNER LEVEL
+# =============================
+
+# 1. Take a string input and print its length.
+# 2. Print first 3 and last 3 characters of a string.
+# 3. Convert a string to uppercase and lowercase.
+# 4. Count vowels in a string.
+# 5. Check if an email contains '@' and ends with '.com'.
+# 6. Reverse a string (without using slicing or reversed()).
+# 7. Check if a string is a palindrome.
+# 8. Count frequency of each character.
+# 9. Mask an email (example: raj@tcs.com → r**@tcs.com).
+# 10. Extract domain name from an email.
+
+# =============================
+#      INTERMEDIATE LEVEL
+# =============================
+
+# 11. Print middle character(s): odd → 1 char, even → 2 chars.
+# 12. Replace spaces with '-' without using replace().
+# 13. Check if two strings are anagrams without sorting.
+# 14. Count consonants (ignore digits & symbols).
+# 15. Remove duplicate words from a sentence.
+# 16. Print characters that appear more than once.
+# 17. Caesar cipher: shift each character by +1.
+# 18. Find first non-repeating character.
+# 19. Remove all vowels from a string.
+# 20. Check if one string is rotation of another.
+# 21. Remove all duplicate characters but keep order.
+# 22. Extract only digits from a string.
+# 23. Remove all special characters.
+# 24. Convert string to Title Case manually.
+# 25. Count words in a sentence without using split().
+# 26. Find longest word in a sentence.
+# 27. Check if string contains only alphabets.
+# 28. Count uppercase, lowercase, digits, symbols separately.
+# 29. Swap case manually (a→A, A→a).
+# 30. Check whether string contains repeating pattern (e.g., 'abab').
+
+# =============================
+#     END OF QUESTION FILE
+# =============================

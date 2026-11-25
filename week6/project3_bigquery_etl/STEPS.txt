@@ -1,0 +1,10 @@
+PROJECT 3 - BIGQUERY / SQL
+
+1 GCP: enable BigQuery, create dataset
+2 Upload sample_customers.csv to table raw.customers
+3 Run sql_drill.sql ideas on BigQuery (dedup by policy_number)
+4 README: raw -> curated -> report (3 lines)
+5 Git push
+
+No GCP yet: practice sql_drill.sql on week5 sample.db in SQLite
+Cert later: Google Professional Data Engineer

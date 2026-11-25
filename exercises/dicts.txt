@@ -1,0 +1,18 @@
+1. Create a dictionary for a student with keys: name, age, marks.
+2. Update the dictionary with a new key: grade.
+3. Iterate over dictionary items and print key-value pairs.
+4. Store marks of 3 students in a dict and print topper’s name.
+5. Sort a dictionary by keys.
+6. Sort a dictionary by values.
+7. Handle missing keys in a dictionary.
+8. Merge two dictionaries.
+9. Create a grade calculator using dictionary.
+10. Find key with maximum value in dictionary.
+11. Remove a key from dictionary.
+12. Count duplicate characters in a string using dictionary.
+13. Group similar items into dictionary values.
+14. Find all unique values in a dictionary.
+15. Convert list of tuples into dictionary.
+16. Convert lists of lists into dictionary.
+17. Build employee directory using nested dictionary.
+18. Remove dictionary keys with values greater than K.

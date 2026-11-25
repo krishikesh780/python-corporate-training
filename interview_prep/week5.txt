@@ -1,0 +1,30 @@
+WEEK 5 - INTERVIEW (SQL + projects)
+
+MUST KNOW
+  sqlite3 connect cursor execute ? placeholders
+  SELECT WHERE GROUP BY
+  ROW_NUMBER PARTITION BY dedup
+  JSON CRM vs Excel regression project story
+  compare old new data report
+
+RUN: python week5/day5.py
+     cd week5/Project5 && python main.py
+
+TOP 5 Q
+  Q: SQL injection?
+  A: use ? params not f-string SQL
+
+  Q: primary key in your project?
+  A: policy_number
+
+  Q: regression testing meaning?
+  A: re-run checks after data/code change
+
+  Q: pandas vs SQLite when?
+  A: analysis in memory vs persisted queries
+
+  Q: CRUD you implemented?
+  A: JSON CustomerManager add find update delete save
+
+30 SEC STORY
+  "Loaded queries.xlsx, replaced DATE, ran on sample.db, wrote report.xlsx"

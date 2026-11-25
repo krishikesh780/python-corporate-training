@@ -1,0 +1,18 @@
+[
+    {
+        "id": 2,
+        "name": "Bob",
+        "policy_number": "POL54321",
+        "policy_type": "Life+Vehicle",
+        "premium": 2000,
+        "status": "Deceased"
+    },
+    {
+        "id": 3,
+        "name": "Charlie",
+        "policy_number": "POL67890",
+        "policy_type": "Health",
+        "premium": 1800,
+        "status": "Alive"
+    }
+]

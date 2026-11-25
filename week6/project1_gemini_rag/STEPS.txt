@@ -1,0 +1,19 @@
+PROJECT 1 - LLM + RAG (Gemini OR DeepSeek)
+
+Gemini:
+  1 Key -> GEMINI_API_KEY in week6\.env
+  2 pip install google-genai python-dotenv
+  3 python step1_hello.py
+
+DeepSeek:
+  1 Key -> DEEPSEEK_API_KEY in week6\.env  (platform.deepseek.com)
+  2 pip install requests python-dotenv
+  3 python step1_hello_deepseek.py
+  4 RAG demo: python step4_rag_deepseek.py "What is the claim deadline?"
+
+RAG steps (same for both):
+  4 Text file or PDF -> chunks
+  5 Question -> top chunks -> LLM
+  6 Git push + screenshot
+
+Code reuse: deepseek_client.chat() in FastAPI project2 later

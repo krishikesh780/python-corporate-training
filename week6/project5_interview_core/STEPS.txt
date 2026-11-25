@@ -1,0 +1,11 @@
+PROJECT 5 - CORE DRILL (30 min)
+
+Docker: copy Dockerfile.example -> build FastAPI image
+Git: init, commit, push (no .env)
+REST: curl POST /chat
+SQL: run project3 sql_drill.sql on SQLite
+
+Interview one-liners:
+  401 = not logged in | 403 = no permission
+  Docker image vs container
+  ROW_NUMBER = pick latest row per key

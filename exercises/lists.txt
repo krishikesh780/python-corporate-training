@@ -1,0 +1,41 @@
+# =============================
+#          LIST PART 1
+# =============================
+
+# 1. Create a list of marks [45, 67, 89, 34, 90]. Print average & highest.
+# 2. Append a new mark and remove one.
+# 3. Slice list → print first 3 marks.
+# 4. Create list of squares using list comprehension.
+# 5. Check if an element exists in a list.
+# 6. Interchange first & last elements.
+# 7. Swap two elements (user-defined positions).
+# 8. Count occurrences of a number.
+# 9. Count frequency of all elements.
+# 10. Find smallest element.
+# 11. Find second largest element.
+# 12. Print only even numbers.
+# 13. Count total even & odd numbers.
+# 14. Print only positive numbers.
+# 15. Find duplicate elements.
+# 16. Remove empty lists/tuples from nested list.
+# 17. Merge two lists into list of dictionaries.
+# 18. Elements present in one list but not other.
+
+# =============================
+#   LIST PRACTICE (LOOP + LIST)
+# =============================
+
+# 19. Find largest & smallest without max/min.
+# 20. Reverse list without reverse() or slicing.
+# 21. Remove duplicates without using set.
+# 22. Find second largest number.
+# 23. Count frequency using list + dict.
+# 24. Merge two lists index-wise.
+# 25. Check if list is palindrome.
+# 26. Find common elements without using set.
+# 27. Rotate list by n positions.
+# 28. Sort list without sort() → Bubble Sort.
+
+# =============================
+#     END OF QUESTION FILE
+# =============================

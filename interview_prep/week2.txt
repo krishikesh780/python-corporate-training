@@ -1,0 +1,29 @@
+WEEK 2 - INTERVIEW (functions)
+
+MUST KNOW
+  def return | default args
+  *args | **kwargs
+  lambda map filter reduce zip
+  import vs from import | __name__ == "__main__"
+
+RUN: python week2/day3.py (mymodule)
+
+TOP 5 Q
+  Q: *args vs **kwargs?
+  A: tuple of values vs dict of keywords
+
+  Q: map vs filter?
+  A: transform all vs keep if True
+
+  Q: why not import * ?
+  A: namespace pollution
+
+  Q: module vs package?
+  A: one .py vs folder with modules
+
+  Q: first-class function?
+  A: pass function as argument
+
+30 SEC CODE
+  sum_all = lambda *a: sum(a)
+  list(map(str.upper, ["hi","py"]))

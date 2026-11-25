@@ -1,0 +1,35 @@
+PROJECT 6 - SCHEDULE + GITHUB ACTIONS + CLOUD TRIGGER
+
+What you build:
+  A) GitHub Actions runs job on timer + manual button
+  B) GCP Cloud Scheduler (or any cron) hits your HTTP API
+
+PART A - GitHub Actions (repo root)
+  1 Push code to GitHub
+  2 File already at: .github/workflows/scheduled-automation.yml
+  3 GitHub -> Actions -> "Scheduled automation" -> Run workflow (manual)
+  4 Schedule: cron in yaml (default Mon 06:00 UTC)
+  5 Optional secret: AUTOMATION_WEBHOOK_URL for POST after job
+
+PART A - Local test
+  cd week6\project6_schedule_triggers
+  python run_job.py
+  python run_job.py --notify   (needs AUTOMATION_WEBHOOK_URL)
+
+PART B - Cloud Scheduler (GCP)
+  1 Deploy trigger_api.py (Cloud Run / VM / ngrok for lab)
+     pip install fastapi uvicorn
+     set SCHEDULER_SECRET=my-secret
+     uvicorn trigger_api:app --port 8010
+  2 POST http://HOST:8010/jobs/run
+     Header: X-Scheduler-Token: my-secret
+  3 GCP Console -> Cloud Scheduler -> HTTP target -> same URL + header
+  4 Frequency: e.g. 0 8 * * * (daily 8am)
+
+PART C - n8n link (project4)
+  Cron node OR Webhook -> HTTP -> your /jobs/run or GitHub repository_dispatch
+
+Interview line:
+  "CI on schedule + workflow_dispatch; production uses Cloud Scheduler -> secured HTTP trigger"
+
+Git: commit workflow yaml + run_job.py, never commit secrets

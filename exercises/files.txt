@@ -1,0 +1,7 @@
+1. Write a program to read and print a file.
+2. Write a program to count lines, words, and characters in a file.
+3. Merge two text files into one.
+4. Count number of ERROR and INFO logs in a file.
+5. Read CSV of employees and calculate average salary.
+6. Write a program to copy contents from one file to another.
+7. Write a program to remove blank lines from a file.

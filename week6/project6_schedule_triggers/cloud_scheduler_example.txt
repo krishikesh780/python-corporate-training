@@ -1,0 +1,18 @@
+GCP CLOUD SCHEDULER (example HTTP job)
+
+Target URL:
+  POST https://YOUR_CLOUD_RUN_URL/jobs/run
+
+Headers:
+  X-Scheduler-Token: <same as SCHEDULER_SECRET>
+
+Body: empty JSON {} optional
+
+Auth (production):
+  Use OIDC token or Cloud Run IAM instead of plain secret in header
+
+Test with curl:
+  curl -X POST http://127.0.0.1:8010/jobs/run -H "X-Scheduler-Token: change-me"
+
+GitHub alternative (no GCP):
+  Only use .github/workflows/scheduled-automation.yml cron + workflow_dispatch

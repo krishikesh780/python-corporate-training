@@ -1,0 +1,30 @@
+WEEK 4 - INTERVIEW (OOP + git)
+
+MUST KNOW
+  class object self __init__
+  inherit super() override polymorphism
+  encapsulation __attr getter
+  ABC abstractmethod
+  gitignore .env pip venv CI yaml sketch
+
+RUN: python week4/day1.py day2.py
+
+TOP 5 Q
+  Q: inheritance vs composition?
+  A: is-a vs has-a part
+
+  Q: @classmethod vs @staticmethod?
+  A: gets cls vs no self/cls
+
+  Q: polymorphism example?
+  A: same method name different class behavior
+
+  Q: why .gitignore .env?
+  A: secrets not in repo
+
+  Q: CI purpose?
+  A: auto test on every push
+
+30 SEC CODE
+  class Child(Parent):
+      def __init__(self,a): super().__init__(a)

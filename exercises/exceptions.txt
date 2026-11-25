@@ -1,0 +1,6 @@
+1. Handle division by zero exception.
+2. Handle missing key error in dictionary.
+3. Create a custom exception SalaryTooLowError.
+4. Handle file not found exception.
+5. Create a try-except-finally demo.
+6. Raise exception if age < 18 for driving license check.

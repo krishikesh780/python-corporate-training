@@ -1,0 +1,7 @@
+1. Validate if a string is a valid email.
+2. Validate PAN number format.
+3. Extract all numbers from a string.
+4. Extract all email IDs from a text.
+5. Find repeated words in a paragraph.
+6. Replace all digits in a string with #.
+7. Extract invoice number from an email subject.

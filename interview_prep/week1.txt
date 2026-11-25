@@ -1,0 +1,29 @@
+WEEK 1 - INTERVIEW (basics)
+
+MUST KNOW
+  int float str bool | type() casting int() str()
+  input() returns str always
+  // floor | % mod | ** power
+  if elif else | for while break continue
+
+RUN: python week1/day1.py ... day5.py
+
+TOP 5 Q
+  Q: Difference list vs tuple?
+  A: list mutable [], tuple immutable ()
+
+  Q: What is indentation?
+  A: Python blocks - no braces
+
+  Q: even odd logic?
+  A: n % 2 == 0
+
+  Q: f-string?
+  A: f"name={name}" readable formatting
+
+  Q: snake_case why?
+  A: PEP8 for variables
+
+30 SEC CODE (speak aloud)
+  for i in range(1,6): print(i)
+  if n%2==0: print("even")
